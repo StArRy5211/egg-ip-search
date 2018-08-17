@@ -10,6 +10,11 @@ const taobao = new Taobao();
 module.exports = {
   async getLocation() {
     const ip = this.ip;
+
+    return await this.getLocationByIP(ip);
+  },
+
+  async getLocationByIP(ip) {
     const result = {};
 
     if (ip && !util.isLAN(ip)) {

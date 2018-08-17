@@ -1,6 +1,6 @@
 {
   "name": "egg-ip-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "egg plugin for searching ip geo information.",
   "eggPlugin": {
     "name": "ipSearch"
