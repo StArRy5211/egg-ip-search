@@ -42,22 +42,20 @@ exports.ipSearch = {
 
 ```js
 // {app_root}/controller/xxx.js
-const location =  await this.ctx.getLocation();
+const location = await this.ctx.getLocation();
+const location = await this.ctx.getLocationByIP('223.71.87.228');
 ```
 
-## Configuration
-
-```js
-// {app_root}/config/config.default.js
-exports.ipSearch = {
-};
-```
 
 see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
 
-<!-- example here -->
+
+
+```js
+const location = await this.ctx.getLocationByIP('223.71.87.228'); // { province: "北京", city: "北京", isp: "中国移动北京分公司" }
+```
 
 ## Questions & Suggestions
 
