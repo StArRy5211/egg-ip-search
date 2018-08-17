@@ -46,12 +46,7 @@ const location = await this.ctx.getLocation();
 const location = await this.ctx.getLocationByIP('223.71.87.228');
 ```
 
-
-see [config/config.default.js](config/config.default.js) for more detail.
-
 ## Example
-
-
 
 ```js
 const location = await this.ctx.getLocationByIP('223.71.87.228'); // { province: "北京", city: "北京", isp: "中国移动北京分公司" }
@@ -59,7 +54,7 @@ const location = await this.ctx.getLocationByIP('223.71.87.228'); // { province:
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/StArRy5211/egg-ip-search/issues).
 
 ## License
 
